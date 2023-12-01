@@ -1,0 +1,9 @@
+table .images{
+    width: 27%;
+}
+table th{
+    width: 25%;
+}
+td{
+    border-bottom: 1px solid #ccc;
+}

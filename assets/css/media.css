@@ -1,0 +1,17 @@
+@media screen and (max-width: 764px) {
+    .header-content{
+        padding-block: 48px;
+    }
+    .sliders .block {
+        margin-top: 20px;
+    }
+    .sliders  img{
+        width: 100%;
+    }
+    .Categories img{
+        width: 50%;
+    }
+    section{
+        text-align: center;
+    }
+}

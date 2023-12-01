@@ -1,0 +1,49 @@
+header{
+    background: url(../img/bg-breadcrumb.jpg);
+    background-size: cover;
+}
+.button-search {
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+.button-search input{
+    outline: 0;
+}
+span{
+    color: #929292;
+    font-size: 16px;
+    font-weight: 400 ;
+}
+.ppt a{
+    color: black;
+}
+.ppt a:hover{
+    color: var(--main-color);
+}
+.ppt a::before{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    width: 100%;
+    height: 1px;
+    bottom : 0;
+    right: 0;
+}
+.ppt:hover a::before{
+    animation-name: bounce;
+    animation-duration: 2s;
+    
+}
+@keyframes bounce {
+    0%{
+        width: 100%;
+    }
+    50%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+        left: 0;
+    }
+}
+
